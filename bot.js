@@ -9,8 +9,8 @@ client.on('message', message => {
     if (message.content === 'ping') {
     	message.reply('pong');
   	}
-    if (message.content === 'you') {
-    	message.reply('suck');
+    if (message.content === '!who') {
+    	message('@Sentient #1 :100:');
   	}
 });
 
