@@ -10,7 +10,7 @@ client.on('message', message => {
     	message.reply('pong');
   	}
     if (message.content === '!who') {
-    	message.send('@Sentient #1 :100:');
+    	message.channel.send('@Sentient #1 :100:');
   	}
 });
 
